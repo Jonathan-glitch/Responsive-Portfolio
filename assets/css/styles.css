@@ -10,7 +10,7 @@ body{
      text-align: center;
      max-width: 960px;
      background-color: white;
-     
+     position: absolute;     
 }
 .title{
      color: white;
@@ -90,4 +90,20 @@ body{
      padding: 5px;
      display: flex;
      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 940px) {
+     body {
+          background-image:url("https://www.toptal.com/designers/subtlepatterns/patterns/green-fibers.png")
+     }
+}
+@media screen and (max-width: 768px) {
+     body {
+          background-image:url("https://www.toptal.com/designers/subtlepatterns/patterns/green-fibers.png")
+     }
+}
+@media screen and (max-width: 640px) {
+     body {
+          background-image:url("https://www.toptal.com/designers/subtlepatterns/patterns/green-fibers.png")
+     }
 }
